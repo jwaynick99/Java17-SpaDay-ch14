@@ -1,7 +1,10 @@
 package org.launchcode.models;
 
+import jakarta.validation.constraints.Size;
+
 public class User {
 
+    @Size
     private String username;
     private String email;
     private String password;
